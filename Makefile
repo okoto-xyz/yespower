@@ -16,7 +16,7 @@
 # OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 # SUCH DAMAGE.
 
-CC = gcc
+CC = aarch64-linux-gnu-gcc
 LD = $(CC)
 RM = rm -f
 OMPFLAGS = -fopenmp
